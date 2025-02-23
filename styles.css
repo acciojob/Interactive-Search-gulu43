@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #775bf0;
+    color: black;
+
+}
+
+.search {
+    /* margin-top: 20%;*/
+    /* margin-left: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 40px;
+    width: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+    
+    background: #fff;
+    border: 1px solid #ccc;
+    border: none;
+}
+.search {
+    height: 40px;
+    width: 250px
+}
+.search.active {
+    height: 40px;
+    width: 400px;
+}
+.input {
+    height: 40px;
+    width: 200px
+}
+.input.active {
+    height: 40px;
+    width: 350px;
+    
+}
